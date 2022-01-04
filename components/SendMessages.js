@@ -36,7 +36,7 @@ function SendMessages({ endOfMessagesRef }) {
 	return (
 		<form
 			action=""
-			className="flex fixed-bottom-10 bg-black opacity-80 w-11/12 px-6 py-4 max-w-2xl shadow-xl rounded-full border-4 border-blue-400 text-white ">
+			className="flex sticky bottom-0 bg-black opacity-80 w-11/12 px-6 py-4 max-w-2xl shadow-xl rounded-full border-4 border-blue-400 text-white ">
 			<input
 				type="text"
 				className="flex-grow outline-none bg-transparent"

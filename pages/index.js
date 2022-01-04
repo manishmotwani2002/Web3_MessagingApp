@@ -16,13 +16,18 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<div className="max-w-screen-2xl mx-auto">
+			<div className="max-w-screen-2xl mx-auto flex flex-col ">
 				{/* header  */}
 
-				<Header />
+				<div className="grow-0">
+					{' '}
+					<Header />
+				</div>
 
 				{/* messages  */}
-				<Messages />
+				<div className=" grow">
+					<Messages />
+				</div>
 			</div>
 		</div>
 	);

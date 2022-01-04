@@ -18,7 +18,7 @@ function ChangeUsername() {
 	};
 
 	return (
-		<div className="text-lg absolute top-5 right-5 font-semibold">
+		<div className="text-lg font-semibold">
 			<button
 				className="hover:text-pink-700"
 				onClick={() => {

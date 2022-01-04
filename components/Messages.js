@@ -25,7 +25,7 @@ function Messages() {
 	const endOfMessagesRef = useRef(null);
 
 	return (
-		<div className="pb-56">
+		<div className="">
 			<div className="my-5">
 				{/* <ByMorails
 					variant="dark"
@@ -39,11 +39,12 @@ function Messages() {
 				})}
 			</div>
 			<div>{/* Each Message  */}</div>
-			<div className="flex justify-center">
-				<SendMessages endOfMessagesRef />
-			</div>
+
 			<div ref={endOfMessagesRef} className="text-center text-gray-400 mt-5">
 				<p>You are Up to Date {user.getUsername()}</p>
+			</div>
+			<div className="flex justify-center">
+				<SendMessages endOfMessagesRef />
 			</div>
 		</div>
 	);
