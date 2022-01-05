@@ -11,6 +11,8 @@ export default function Home() {
 
 	return (
 		<div className=" h-screen overflow-y-scroll bg-gradient-to-b from-black  to-fuchsia-900 overflow-hidden">
+			{/* Head Element wiwth Change Username  */}
+
 			<Head>
 				<title>Chat DApp!!</title>
 				<link rel="icon" href="/favicon.ico" />
